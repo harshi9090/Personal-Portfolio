@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("C:\Users\smanu\OneDrive\Desktop\ossss\WhatsApp Image 2024-08-30 at 06.31.01_d1497117.jpg"); /* Replace with your image URL */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image in the viewport */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent green */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px0; /* Reduced padding for sections */
+}
+
+h2 {
+  text-align: center;
+}
+
+#about {
+  background-color: rgba(
+    249,
+    249,
+    249,
+    0.9
+  ); /* Light background for About section */
+  padding: 60px0; /* Increased padding for more space */
+  min-height: 400px; /* Set a minimum height for About section */
+  text-align: center; /* Center align text */
+}
+
+.about-content {
+  display: block; /* Stack elements vertically */
+}
+
+.about-image {
+  width: 200px; /* Keep width as it is */
+  max-height: 200px; /* Set a maximum height for image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center image horizontally */
+}
+
+.about-text {
+  max-width: 600px; /* Limit width of text area */
+  margin: 20px auto; /* Center text block with margin */
+}
+
+.skill {
+  margin: 20px0; /* Space between skills */
+}
+
+.skill-bar {
+  background-color: #e0e0e0; /* Background for skill bar */
+  border-radius: 5px; /* Rounded corners */
+  height: 25px; /* Height of skill bar */
+}
+
+.skill-level {
+  height: 100%; /* Full height of skill bar */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Skill levels with different widths and colors */
+.java {
+  width: 80%; /* Adjust percentage for Java skill level */
+  background-color: #f89820; /* Java color */
+}
+
+.python {
+  width: 70%; /* Adjust percentage for Python skill level */
+  background-color: #3572a5; /* Python color */
+}
+
+.c {
+  width: 60%; /* Adjust percentage for C skill level */
+  background-color: #555555; /* C color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align form items */
+}
+
+form input,
+form textarea {
+  width: 80%; /* Decrease width to fit better in layout */
+  max-width: 400px; /* Set a maximum width */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px20px; /* Add horizontal padding */
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px0;
+}
