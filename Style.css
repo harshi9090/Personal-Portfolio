@@ -3,10 +3,10 @@
 }
 
 body {
-  background-image: url("C:\Users\smanu\OneDrive\Desktop\ossss\WhatsApp Image 2024-08-30 at 06.31.01_d1497117.jpg"); /* Replace with your image URL */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: cover; /* Ensures the image covers the entire viewport */
-  background-position: center; /* Centers the image in the viewport */
+  background-image: url("C:\Users\smanu\OneDrive\Desktop\ossss\WhatsApp Image 2024-08-30 at 06.31.01_d1497117.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent green */
+  background-color: rgba(76, 175, 80, 0.8); 
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 section {
-  padding: 30px0; /* Reduced padding for sections */
+  padding: 30px0; 
 }
 
 h2 {
@@ -58,69 +58,69 @@ h2 {
     249,
     249,
     0.9
-  ); /* Light background for About section */
-  padding: 60px0; /* Increased padding for more space */
-  min-height: 400px; /* Set a minimum height for About section */
-  text-align: center; /* Center align text */
+  ); 
+  padding: 60px0; 
+  min-height: 400px;
+  text-align: center; 
 }
 
 .about-content {
-  display: block; /* Stack elements vertically */
+  display: block;
 }
 
 .about-image {
-  width: 200px; /* Keep width as it is */
-  max-height: 200px; /* Set a maximum height for image */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 auto; /* Center image horizontally */
+  width: 200px; 
+  max-height: 200px; 
+  height: auto; 
+  margin: 0 auto; 
 }
 
 .about-text {
-  max-width: 600px; /* Limit width of text area */
-  margin: 20px auto; /* Center text block with margin */
+  max-width: 600px; 
+  margin: 20px auto; 
 }
 
 .skill {
-  margin: 20px0; /* Space between skills */
+  margin: 20px0; 
 }
 
 .skill-bar {
-  background-color: #e0e0e0; /* Background for skill bar */
-  border-radius: 5px; /* Rounded corners */
-  height: 25px; /* Height of skill bar */
+  background-color: #e0e0e0; 
+  border-radius: 5px; 
+  height: 25px; 
 }
 
 .skill-level {
-  height: 100%; /* Full height of skill bar */
-  border-radius: 5px; /* Rounded corners */
+  height: 100%; 
+  border-radius: 5px; 
 }
 
-/* Skill levels with different widths and colors */
+
 .java {
-  width: 80%; /* Adjust percentage for Java skill level */
-  background-color: #f89820; /* Java color */
+  width: 80%; 
+  background-color: #f89820;
 }
 
 .python {
-  width: 70%; /* Adjust percentage for Python skill level */
-  background-color: #3572a5; /* Python color */
+  width: 70%; 
+  background-color: #3572a5; 
 }
 
 .c {
-  width: 60%; /* Adjust percentage for C skill level */
-  background-color: #555555; /* C color */
+  width: 60%; 
+  background-color: #555555; 
 }
 
 form {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align form items */
+  align-items: center; 
 }
 
 form input,
 form textarea {
-  width: 80%; /* Decrease width to fit better in layout */
-  max-width: 400px; /* Set a maximum width */
+  width: 80%; 
+  max-width: 400px;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -129,7 +129,7 @@ form button {
   background-color: #4caf50;
   color: white;
   border: none;
-  padding: 10px20px; /* Add horizontal padding */
+  padding: 10px20px; 
   cursor: pointer;
 }
 
